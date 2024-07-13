@@ -509,8 +509,8 @@
 }
 
 .feature ion-icon {
-  width: 4rem;
-  height: 4rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .line-sep {
@@ -662,7 +662,7 @@
 
 .cta {
   display: grid;
-  padding: 0 0;
+  padding: 0 4.8rem;
   grid-template-columns: 40fr 60fr;
   border-radius: 10px;
   overflow: hidden;
