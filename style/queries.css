@@ -44,6 +44,11 @@
     width: 75%;
   }
 
+  .feature ion-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
   .cta-txt-box {
     padding: 6.4rem 9.2rem;
   }
