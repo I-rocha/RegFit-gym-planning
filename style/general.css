@@ -1,0 +1,148 @@
+/*************** BIG *****************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #d48282;
+  border-radius: 5px;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+  background-color: #1d1d1d;
+  color: #f8eaea;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/****************************************/
+
+strong {
+  font-weight: 600;
+}
+
+.ion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #2f5971;
+}
+
+.heading-primary {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.heading-secondly {
+  font-size: 3.6rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+}
+
+.subheading {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #be4343;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1.8rem;
+}
+
+.btn {
+  transition: all 0.2s;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  border: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.tag {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+
+/******************/
+/*    SPACING     */
+/******************/
+.sm-l-margin {
+  margin-left: 2.4rem;
+}
+
+.container-v--md--margin {
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.container-v--big--margin {
+  margin-top: 19.2rem;
+  margin-bottom: 19.2rem;
+}
+
+/******************/
+/*   CONTAINERS   */
+/******************/
+
+.container {
+  max-width: 120rem;
+  padding: 0 4.8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+}
+
+.grid--col--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--col--2 {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5.6rem;
+}
+
+.grid--col--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
