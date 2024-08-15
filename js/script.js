@@ -14,7 +14,8 @@ const alink = document.querySelectorAll("a:link");
 
 alink.forEach((linkEl) => {
   linkEl.addEventListener("click", (e) => {
-    e.preventDefault();
+    console.log(e);
+    if (!e.srcElement.classList.contains("developer")) e.preventDefault();
     const href = linkEl.getAttribute("href");
 
     if (href === "#") {
@@ -25,6 +26,8 @@ alink.forEach((linkEl) => {
     } else if (href.startsWith("#")) {
       const elTo = document.querySelector(href);
       elTo.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.open(href);
     }
     if (linkEl.classList.contains("nav-link")) {
       hContainerEl.classList.toggle("nav-open");
